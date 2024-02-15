@@ -1,0 +1,31 @@
+* {
+    margin: 0px;
+}
+.mastercont {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ruletabox {
+    width: 200px;
+    margin-top: 20px;
+}
+.ruletabox img {
+    width: 200px;
+    transition: 3s ease-out;
+}
+.mastercont > img {
+    width: 50px;
+    margin-top: 20px;
+}
+button {
+    background: #21489d;
+    color: #fff;
+    width: 200px;
+    height: 70px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 30px;
+}
